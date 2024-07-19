@@ -1,0 +1,81 @@
+{
+    "nations": [
+        {
+            "id": 0,
+            "name": "España",
+            "nameEn": "Spain",
+            "nameSlug": "ESP",
+            "nameNick": "La Roja",
+            "federation": "Real Federación Española de Fútbol",
+            "capital": "Madrid",
+            "flag": null
+        }
+    ],
+    "leagues": [
+        {
+            "id": 0,
+            "name": "SuperLeague",
+            "nameEn": "SuperLeague",
+            "nameSlug": "SL",
+            "logo": null,
+            "trophyImg": null,
+            "order": 0,
+            "type": "international"
+        }
+    ],
+    "stages": [
+        {
+            "id": 0,
+            "leagueId": 0,
+            "name": "Regular Season",
+            "order": 10,
+            "rules": {
+                "format": "doubleRoundRobin",
+                "teams": 20,
+                "pointsWin": 3,
+                "pointsDraw": 1,
+                "pointsLoss": 0,
+                "tiebreakers": [
+                    "goalDifference",
+                    "goalsScored",
+                    "headToHead",
+                    "headToHeadGoals",
+                    "ranking"
+                ],
+                "placements": {
+                    "promotions": 2,
+                    "playoffs": 4,
+                    "playouts": 0,
+                    "relegations": 3
+                },
+                "matchDuration": {
+                    "regularHalves": 2,
+                    "regularHalvesDuration": 45,
+                    "regularBreakDuration": 15,
+                    "extraHalves": 2,
+                    "extraHalvesDuration": 15,
+                    "extraBreakDuration": 5
+                }
+            }
+        }
+    ],
+    "clubs": [
+        {
+            "id": 0,
+            "name": "Club Atlético de Madrid",
+            "nameEn": "Atletico Madrid",
+            "nameSlug": "ATL",
+            "nameNick": "Colchoneros",
+            "nation": 0,
+            "city": "Madrid",
+            "stadium": "Stadio Cívitas Metropolitano",
+            "year": 1903,
+            "logo": null,
+            "colors": {
+                "primary": "#fff", 
+                "secondary": "#CB3524",
+                "tertiary": "#272E61"
+            }               
+        }
+    ]
+}
